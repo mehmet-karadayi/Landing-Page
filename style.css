@@ -1,33 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Luxurious+Roman&display=swap');
+
 body {
     margin: 0;
     min-height: 100vh;
-    background-color: #1F2937;
+    background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    
 }
 
 .header {
+    display: flex;
+    border: solid black;
     height: 72px;
-    background-color: pink;
 }
 
+.logo {
+    font-family: 'Luxurious Roman', cursive; 
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    flex-shrink: 0;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding-right: 30px;
+}
+/* 
 .container_1 {
-    margin: 0px;
+    background-color: aliceblue;
+    height: 300px;
 }
 .container_2 {
-    background-color: white;
-    height: 72px;
+    background-color:bisque;
+    height: 300px;
 }
 
 .container_3 {
+    height: 300px;
     background-color: #E5E7EB;
 }
 
 .container_4 {
     background-color: white;
+    height: 300px;
 }
 
 .footer {
     height: 72px;
-}
+    background-color: brown;
+} */
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin-left: 0;
+   
+  }
