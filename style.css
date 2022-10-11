@@ -42,8 +42,8 @@ header {
 }
 
 #container_2 {
-    background-color: burlywood;
-    height:500px;
+    background-color: white;
+    /* height:300px; */
     max-width: 100%;
     display: flex;
     flex-direction: column;
@@ -52,10 +52,10 @@ header {
 
 #container_2_top{
     max-width: 100%;
-    height: 100px;
+    /* height: 100px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
     background-color: white;
-    
-    
     display:flex;
     align-items:center;
     justify-content:center;
@@ -73,7 +73,7 @@ header {
 
 #container_2_bottom {
     background-color: white;
-    height: 800px;
+    /* height: 200px; */
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -113,6 +113,8 @@ header {
 }
 
 #container_3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
     height: 400px;
     max-width: 100%;
     background-color: beige;
@@ -120,25 +122,26 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 #quote {
-    
-    width: 800px;
+    width: 80%;
     font-size: 36px;
     font-style: italic;
     font-weight: light;
     color: #1F2937 ;
+    padding-bottom: 0;
+
+
 
 }
 
 #context {
     font-size: 24px;
-    width: 800px;
-    display: flex;
-    justify-content: flex-end;
     font-weight: bold;
+    min-width: 0;
+    flex: 1 1 0;
+    text-align: end;
 }
 
 
