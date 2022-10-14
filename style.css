@@ -54,7 +54,7 @@ ul {
 }
 
 #container_1 {
-    background-image: url(/images/mario_background.png);
+    background-image: url(images/mario_background.png);
     max-width: 100%;
     display: flex;
     justify-content: center;
