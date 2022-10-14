@@ -208,11 +208,15 @@ ul {
 }
 
 #quote {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
     width: 60%;
     font-size: 36px;
     font-style: italic;
     font-weight: light;
     color: #1F2937;
+    margin-bottom: 5px;
 }
 
 #context {
@@ -230,7 +234,8 @@ ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+    background-image: url(/images/background.jpeg);
+    background-size: cover;
 }
 
 #inner {
@@ -246,7 +251,7 @@ ul {
     margin-right: 30px;
     flex-wrap: wrap;
     padding-bottom: 10px;
-    ;
+    opacity: 90%;
 }
 
 #left {
