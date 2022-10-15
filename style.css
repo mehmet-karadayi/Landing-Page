@@ -18,8 +18,13 @@ body {
 
 .header {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     height: 60px;
     background-color: #e52521;
+   
+    
+    
 }
 
 .logo {
@@ -28,13 +33,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
-    flex-shrink: 0;
+    padding: 10px;
     font-size: 24px;
-
+    border: 3px solid white;
+    height: 40%;
+    flex-shrink: 0;
 }
 
 .links {
+    flex-shrink: 1;
     font-size: 24px;
     color: white;
     display: flex;
