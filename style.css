@@ -18,11 +18,12 @@ body {
 
 .header {
     display: flex;
-    flex-direction: row;
     align-items: center;
     height: 60px;
     background-color: #e52521;
+    justify-content: space-between;
    
+    
     
     
 }
@@ -47,9 +48,11 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 100%;
-    padding-right: 30px;
+    padding-right: 10px;
     font-family: 'silkscreen';
+    height: 100%;
+    align-self: center;
+    
 }
 
 ul {
