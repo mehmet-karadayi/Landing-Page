@@ -22,9 +22,6 @@ body {
     height: 60px;
     background-color: #e52521;
     justify-content: space-between;
-   
-    
-    
     
 }
 
@@ -42,7 +39,7 @@ body {
 }
 
 .links {
-    flex-shrink: 1;
+    flex: 1 1 0;
     font-size: 24px;
     color: white;
     display: flex;
