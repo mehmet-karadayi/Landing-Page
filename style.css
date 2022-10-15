@@ -54,7 +54,7 @@ ul {
 }
 
 #container_1 {
-    background-image: url(/images/mario_background.png);
+    background-image: url(images/mario_background.png);
     max-width: 100%;
     display: flex;
     justify-content: center;
@@ -161,22 +161,22 @@ ul {
 }
 
 #mario {
-    background-image: url(/images/mario.png);
+    background-image: url(images/mario.png);
     background-size: cover;
 }
 
 #luigi {
-    background-image: url(/images/luigi.jpeg);
+    background-image: url(images/luigi.jpeg);
     background-size: cover;
 }
 
 #peach {
-    background-image: url(/images/peach.jpeg);
+    background-image: url(images/peach.jpeg);
     background-size: cover;
 }
 
 #yoshi {
-    background-image: url(/images/yoshi.jpeg);
+    background-image: url(images/yoshi.jpeg);
     background-size: cover;
 }
 
@@ -234,7 +234,7 @@ ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image: url(/images/background.jpeg);
+    background-image: url(images/background.jpeg);
     background-size: cover;
 }
 
